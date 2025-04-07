@@ -1,3 +1,28 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+    font-family: 'fontOne';
+    src: url(/public/font/one.ttf);
+}
+
+@font-face {
+    font-family: 'fontTwo';
+    src: url(/public/font/two.ttf);
+}
+
+@font-face {
+    font-family: 'fontThree';
+    src: url(/public/font/three.ttf);
+}
+
+@font-face {
+    font-family: 'fontFour';
+    src: url(/public/font/four.ttf);
+}
+
+@font-face {
+    font-family: 'fontFiver';
+    src: url(/public/font/fiver.ttf);
+}
