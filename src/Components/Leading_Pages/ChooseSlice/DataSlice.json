@@ -1,0 +1,34 @@
+{
+    "slice": [
+        {
+            "id": 1,
+            "title": "relax flow",
+            "img": "/1.jpg",
+            "description": "Teas that help you to find your inner calm and unwind"
+        },
+        {
+            "id": 2,
+            "title": "Life flow",
+            "img": "/2.jpg",
+            "description": "Designed to promote wellness and balance in your daily life"
+        },
+        {
+            "id": 3,
+            "title": "ENERGY flow",
+            "img": "/3.jpg",
+            "description": "Perfect for those who looking for a natural boost of energy"
+        },
+        {
+            "id": 4,
+            "title": "Awareness flow",
+            "img": "/4.jpg",
+            "description": "Teas that will help you slow down for a moment and reconnect with yourself"
+        },
+        {
+            "id": 5,
+            "title": "RELAX FLOW",
+            "img": "/5.jpg",
+            "description": "Teas that help you to find your inner calm and unwind"
+        }
+    ]
+}
