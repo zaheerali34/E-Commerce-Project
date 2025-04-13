@@ -26,3 +26,7 @@
     font-family: 'fontFiver';
     src: url(/public/font/fiver.ttf);
 }
+
+.ImageBox:hover .btn {
+    opacity: 1;
+}

@@ -9,7 +9,7 @@ function TopSales() {
       </h1>
 
       <div className="mt-10 w-full flex items-center justify-between gap-8 max-sm:flex-col">
-        <img src={ImageTop} alt="" className="w-[60%] rounded-[3rem] max-sm:w-full" />
+        <img src={ImageTop} alt="" className="w-[60%] rounded-[4rem] max-sm:w-full" />
 
         <div className="h-[50vh] max-lg:h-[35vh] max-md:h-[30vh] flex items-start justify-between flex-col max-sm:h-[20vh]">
           <div>
