@@ -7,11 +7,13 @@ import AllTopSale from './AllTopSale/AllTopSale'
 import Text from './Text/Text'
 import Philosophy from './Philosophy/Philosophy'
 import Journal from './Journal/Journal'
+import Get from './Get/Get'
+import Footer from './Footer/Footer'
 
 function LeadingPage() {
   return (
     <>
-      <Header />
+      {/* <Header /> */}
       <Home />
       <Slice />
       <TopSales />
@@ -19,6 +21,8 @@ function LeadingPage() {
       {/* <Text />  */}
       <Philosophy />
       <Journal/>
+      <Get />
+      {/* <Footer/> */}
     </>
   )
 }
