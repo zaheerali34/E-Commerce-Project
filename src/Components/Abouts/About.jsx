@@ -5,26 +5,26 @@ import Get from "../Leading_Pages/Get/Get";
 function About() {
   return (
     <div className="w-full h-full">
-      <h1 className="text-[14vw] uppercase font-[fontFiver] px-[5rem] py-[10rem] text-zinc-900">
+      <h1 className="text-[14vw] uppercase font-[fontFiver] px-[5rem] py-[10rem] max-md:py-[5rem] max-lg:px-[2rem] text-zinc-900">
         about us
       </h1>
 
-      <div className="w-full h-full bg-zinc-900 p-20">
-        <div className="flex items-center justify-between">
+      <div className="w-full h-full bg-zinc-900 p-20 max-lg:p-10 max-sm:p-5">
+        <div className="flex items-center justify-between max-sm:flex-col">
           <img
             src="/about.jpg"
             alt=""
-            className="w-[60%] h-screen object-cover rounded-[4rem] relative bottom-[12rem]"
+            className="w-[60vw] h-screen max-lg:w-[50vw] max-lg:h-[80vh] max-md:h-[60vh] max-lg:rounded-[2rem] object-cover rounded-[4rem] relative bottom-[10rem] max-md:bottom-[5rem] max-sm:bottom-[3rem] max-sm:w-full"
           />
-          <div className="text-white flex flex-col gap-10 pl-20">
-            <p className="leading-7">
+          <div className="text-white flex flex-col gap-10 pl-20 max-lg:pl-8 max-sm:pl-4">
+            <p className="leading-7 max-lg:text-[0.8rem] max-lg:leading-5 max-md:text-[0.7rem] max-md:leading-4">
               At Tea Flow, we're committed to bringing you the highest quality
               teas while also staying true to our values of sustainability,
               fairness, and transparency. We carefully source our teas from
               organic and fair trade farms around the world, ensuring that every
               cup you enjoy supports healthy, vibrant communities.
             </p>
-            <p className="text-[1.8vw] uppercase">
+            <p className="text-[1.8vw] uppercase max-lg:text-[1.5vw] max-sm:text-[2vw]">
               tea is more than just a beverage - it's an experience that
               connects us to ourselves, each other, and the world around us.
             </p>
@@ -32,26 +32,26 @@ function About() {
         </div>
       </div>
 
-      <div className="w-full h-screen flex items-end gap-14 px-[10rem] py-20">
-        <img src="/about two.jpg" alt="" className="w-[40%] object-cover" />
-        <div className="w-2/4 flex flex-col gap-8 text-zinc-900">
-          <h1 className="text-xl uppercase font-semibold text-zinc-700">
+      <div className="w-full h-screen max-sm:h-full flex items-end gap-14 max-md:gap-6 px-[10rem] py-20 max-lg:px-[5rem] max-md:px-[2rem] max-sm:px-[1rem] max-sm:flex-col max-sm:items-center">
+        <img src="/about two.jpg" alt="" className="w-[40%] max-lg:h-[60%] max-sm:h-[40%] object-cover max-sm:w-full max-sm:rounded-3xl" />
+        <div className="w-2/4 flex flex-col gap-8 text-zinc-900 max-lg:gap-4 max-sm:gap-4 max-sm:w-full ">
+          <h1 className="text-xl uppercase font-semibold text-zinc-700 max-lg:text-[0.9rem]">
             Another mission of our brand is to make the world a cleaner place!
           </h1>
-          <p>
+          <p className="max-lg:text-[0.8rem] max-sm:text-[1rem]">
             At Tea Flow, we believe it's our responsibility to make the world
             cleaner and healthier for everyone. That's why we're proud to
             introduce our newest initiative - every time you buy our premium
             tea, you help clean the ocean of plastic!
           </p>
-          <p>
+          <p className="max-lg:text-[0.8rem] max-sm:text-[1rem]">
             We know that plastic pollution is a huge problem in our oceans, so
             we've partnered with 4ocean - a company dedicated to cleaning up our
             oceans and beaches. For every purchase you make, we invest a
             percentage of our profits into 4ocean's incredible efforts to remove
             plastic waste from our oceans.
           </p>
-          <p>
+          <p className="max-lg:text-[0.8rem] max-sm:text-[1rem]">
             So not only will you enjoy our delicious teas, but you'll also be
             making a tangible difference in the fight against plastic pollution.
             With your help, we can create a cleaner, healthier world for

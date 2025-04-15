@@ -26,7 +26,6 @@ function Header() {
               <li><Link to="/" className="text-gray-900 text-sm">Home</Link></li>
               <li><Link to="/shop" className="text-gray-900 text-sm">Shop</Link></li>
               <li><Link to="/about" className="text-gray-900 text-sm">About us</Link></li>
-              <li><Link to="/contacts" className="text-gray-900 text-sm">Contacts</Link></li>
             </ul>
 
             <div className="ml-[10rem]">

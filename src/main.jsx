@@ -22,12 +22,8 @@ const router = createBrowserRouter([
       },
       {
         path: '/shop',
-        element: <ShopPage/> // Placeholder for shop page
+        element: <ShopPage/> 
       },
-      {
-        path: '/contacts',
-        element: <div>Contact Page</div> // Placeholder for contact page
-      }
     ]
   }
 ])
