@@ -41,6 +41,48 @@
             "img": "/2.jpg",
             "price": "$ 35",
             "description": "Flavor: cucumbers, young shoots, mushrooms"
+        },
+        {
+            "id": 7,
+            "title": "GREEN TEA #1",
+            "img": "/1.jpg",
+            "price": "$ 12",
+            "description": "Flavor: cucumbers, young shoots, mushrooms"
+        },
+        {
+            "id": 8,
+            "title": "GABA OOLONG #1",
+            "img": "/6.jpg",
+            "price": "$ 30",
+            "description": "Flavor: cucumbers, young shoots, mushrooms"
+        },
+        {
+            "id": 9,
+            "title": "DAN TSUNG #1",
+            "img": "/3.jpg",
+            "price": "$ 45",
+            "description": "Flavor: cucumbers, young shoots, mushrooms"
+        },
+        {
+            "id": 10,
+            "title": "GREEN TEA #2",
+            "img": "/4.jpg",
+            "price": "$ 18",
+            "description": "Flavor: cucumbers, young shoots, mushrooms"
+        },
+        {
+            "id": 11,
+            "title": "GREEN TEA #3",
+            "img": "/5.jpg",
+            "price": "$ 25",
+            "description": "Flavor: cucumbers, young shoots, mushrooms"
+        },
+        {
+            "id": 12,
+            "title": "WISHAN OOLONG #1",
+            "img": "/2.jpg",
+            "price": "$ 35",
+            "description": "Flavor: cucumbers, young shoots, mushrooms"
         }
     ]
 }

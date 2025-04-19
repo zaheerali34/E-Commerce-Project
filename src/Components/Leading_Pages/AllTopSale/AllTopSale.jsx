@@ -1,16 +1,29 @@
-import React from "react";
+import React, { useRef } from "react";
 import Data from "./Data.json";
+import { useInView, motion } from "framer-motion";
 
 function AllTopSale() {
+  const sectionRef = useRef(null);
+  const isInView = useInView(sectionRef, { once: true, amount: 0.1, margin: "-50px 0px" });
+
   return (
     <div className="w-full h-full py-[10rem] px-[5rem] flex items-center justify-center flex-col gap-10 max-lg:px-[1rem]">
-      <h3 className="text-[3rem] font-[fontThree] uppercase pt-[5rem]">
+      <motion.h3 
+        ref={sectionRef}
+        initial={{ y: 100, opacity: 0 }}
+        animate={isInView ? { y: 0, opacity: 1 } : { y: 100, opacity: 0 }}
+        transition={{ duration: 0.8, ease: "easeInOut" }}
+        className="text-[3rem] font-[fontThree] uppercase pt-[5rem]">
         All Top Sales
-      </h3>
+      </motion.h3>
 
       <div className="contBox w-full flex items-center justify-center flex-wrap gap-10 ">
         {Data.Data.map((item, idx) => (
-          <div
+          <motion.div
+          ref={sectionRef}
+          initial={{ y: 150, opacity: 0 }}
+          animate={isInView ? { y: 0, opacity: 1 } : { y: 150, opacity: 0 }}
+          transition={{ duration: 2, delay: idx * 0.5 }}
             key={idx}
             className="w-[25%] max-lg:w-[70%] max-sm:w-full relative"
           >
@@ -24,7 +37,7 @@ function AllTopSale() {
               {item.title}
             </h2>
             <p className="text-[0.9rem] text-gray-800">{item.description}</p>
-          </div>
+          </motion.div>
         ))}
       </div>
     </div>

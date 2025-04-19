@@ -1,18 +1,17 @@
 import React, { useRef, useState } from "react";
 import { Link } from "react-router-dom";
-import Cards from "../Home/Cards";
+import { motion } from "motion/react"
 
 function Header() {
-  const [card, SetCard] = useState('');
-  const ref = useRef();
-
-  const headler = ()=> {
-
-  }
 
   return (
     <>
-      <div className="w-full py-4 px-[8rem] max-xl:px-[5rem] max-md:px-[3.5rem] max-sm:px-[1rem]">
+      <motion.header 
+        initial={{ opacity: 0, y: -100 }}
+        animate={{ opacity: 1, y: 0}}
+        transition={{ duration: 0.8 }}
+      
+      className="w-full py-4 px-[8rem] max-xl:px-[5rem] max-md:px-[3.5rem] max-sm:px-[1rem]">
         <div className="w-full flex items-center justify-between">
           <div className="flex items-start gap-4">
             <Link to="/">
@@ -29,16 +28,14 @@ function Header() {
             </ul>
 
             <div className="ml-[10rem]">
-              <i onClick={headler} className="ri-shopping-bag-line text-2xl text-gray-600">
+              <i className="ri-shopping-bag-line text-2xl text-gray-600">
                 <span className="text-[20px] pl-1">3</span>
               </i>
               <i className="ri-menu-line text-2xl text-gray-600 ml-6"></i>
             </div>
           </nav>
         </div>
-      </div>
-
-      { card ? <Cards /> : '' }
+      </motion.header>
     </>
   );
 }
